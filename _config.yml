@@ -1,7 +1,5 @@
 title: Mehdi Rashtouei
-description: [A short description of your site's purpose]
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+description: A short description of your site's purpose
+show_downloads: "true"
+google_analytics: Your Google Analytics tracking ID
 theme: jekyll-theme-minimal
