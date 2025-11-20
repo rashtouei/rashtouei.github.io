@@ -4,7 +4,7 @@
 ### کارشناس برق و اتوماسیون صنعتی
 
 📍 همدان، ایران (آماده کار در تهران و البرز)
-📞 09189547347 | 📧 rashtouei@gmail.co
+📞 <a href="tel:+989189547347">۰۹۱۸۹۵۴۷۳۴۷</a> | 📧 rashtouei@gmail.co
 🔗 [پروفایل لینکدین](linkedin.com/in/mehdi-rashtouei-2a682b73/) | 🌐 [وبسایت تخصصی](https://plc4u.ir)
 
 ---
