@@ -1,3 +1,3 @@
 # rashtouei.github.io
 # Mehdi Rashtouei
-![Profile Picture](mehdi-profile-github.jpg)
+![Profile Picture](mehdirashtouei.jpg)
