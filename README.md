@@ -2,8 +2,9 @@
 ### Senior Electrical & Industrial Automation Engineer
 
 📍 Hamedan (Ready to relocate to Tehran/Alborz) 
-📞 09189547347 | 📧 rashtouei@gmail.co
+📞 <a href="tel:+989189547347">09189547347</a> | 📧 rashtouei@gmail.co
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/mehdi-rashtouei-2a682b73/) | 🌐 [PLC4U.ir](https://plc4u.ir)
+---
 [**مشاهده نسخه فارسی رزومه (Persian Resume)**](resume-fa)
 ---
 ## 💡 Professional Summary
