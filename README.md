@@ -4,7 +4,7 @@
 📍 Hamedan (Ready to relocate to Tehran/Alborz) 
 📞 09189547347 | 📧 rashtouei@gmail.co
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/mehdi-rashtouei-2a682b73/) | 🌐 [PLC4U.ir](https://plc4u.ir)
-
+[**مشاهده نسخه فارسی رزومه (Persian Resume)**](resume-fa)
 ---
 ## 💡 Professional Summary
 Highly accomplished **Electrical Engineer** with **16 years** of progressive experience in **Industrial Automation, Instrumentation, and Control Systems**. Proven expertise in the design, programming, execution, and commissioning of **Distributed Control Systems (DCS)** and **Programmable Logic Controllers (PLC)**.
