@@ -1,7 +1,5 @@
-<style>
-  body {direction: rtl; text-align: right;}
-  h1, h2, h3, h4, p, ul, ol, table {direction: rtl; text-align: right;}
-</style>
+[**View English Resume (نسخه انگلیسی)**](/)
+---
 # ✍️ مهدی رشتوئی
 ### کارشناس برق و اتوماسیون صنعتی
 
