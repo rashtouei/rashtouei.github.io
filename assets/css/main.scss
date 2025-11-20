@@ -1,20 +1,23 @@
+---
+---
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
 
-body {
+body, html {
     /* تنظیم جهت راست چین و فونت وزیرمتن */
     direction: rtl;
     text-align: right;
     font-family: 'Vazirmatn', sans-serif !important;
-    line-height: 1.7; /* افزایش خوانایی برای متون فارسی */
+    line-height: 1.7; 
 }
 
 /* اعمال راست چین بر روی تمام المان‌های متنی */
-h1, h2, h3, h4, p, ul, ol, table {
+h1, h2, h3, h4, p, ul, ol {
     direction: rtl;
     text-align: right;
 }
 
-/* اصلاح تراز تیترهای جدول */
-th {
+/* تراز جدول‌ها */
+table, th, td {
+    direction: rtl !important;
     text-align: right !important;
 }
