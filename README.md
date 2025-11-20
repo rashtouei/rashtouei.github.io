@@ -1,5 +1,5 @@
 # 👨‍💻 Mahdi Rashtouei
-![Profile Picture](mehdirashtouei.jpg)
+* **مهدی رشتوئی**
 ### Senior Electrical & Industrial Automation Engineer
 
 📍 Hamedan (Ready to relocate to Tehran/Alborz) 
