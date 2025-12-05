@@ -6,7 +6,8 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body class="ltr-page">  <main>
+<body class="{% if page.lang == 'fa' %}rtl-page{% else %}ltr-page{% endif %}">
+    <main>
         {{ content }}
     </main>
 </body>
