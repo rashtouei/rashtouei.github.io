@@ -1,0 +1,5 @@
+# Custom Jekyll Settings
+title: Mahdi Rashtouei Official CV
+description: Senior Electrical and Automation Engineer Portfolio
+sass:
+  sass_dir: _sass
