@@ -1,0 +1,29 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+/* تنظیمات پیش فرض برای صفحه انگلیسی (LTR) */
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    line-height: 1.6;
+    direction: ltr; /* چپ به راست برای انگلیسی */
+    text-align: left;
+}
+
+/* این کلاس را برای صفحه فارسی استفاده خواهیم کرد */
+.rtl-page {
+    direction: rtl; /* راست به چپ برای فارسی */
+    text-align: right;
+}
+
+/* راست چین کردن جدول‌ها در صفحه فارسی */
+.rtl-page table, .rtl-page th, .rtl-page td {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* استایل‌های پایه مارک داون */
+h1, h2, h3, h4 { margin-top: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+ul, ol { padding-left: 20px; }
+table { width: 100%; border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #ddd; padding: 8px; }
