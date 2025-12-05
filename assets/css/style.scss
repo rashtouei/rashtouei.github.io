@@ -2,21 +2,40 @@
 ---
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
 
-/* تنظیمات پیش فرض برای صفحه انگلیسی (LTR) */
+/* تنظیمات عمومی برای تمام صفحات */
 body {
     font-family: 'Vazirmatn', sans-serif;
     line-height: 1.6;
+}
+
+/* این کلاس، رزومه انگلیسی (صفحه اصلی) را در مرکز قرار می‌دهد */
+body.ltr-page main {
+    max-width: 800px; /* حداکثر عرض محتوا */
+    margin: 0 auto; /* محتوا را در مرکز صفحه قرار می‌دهد */
+    padding: 20px; /* حاشیه داخلی برای فاصله گرفتن از لبه‌های مرورگر */
+    border: 1px solid #f0f0f0; /* یک خط خاکستری کم‌رنگ دور رزومه ایجاد می‌کند */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* یک سایه ملایم برای تمایز */
+}
+
+/* تنظیمات پیش فرض برای صفحه انگلیسی (LTR) */
+body.ltr-page {
     direction: ltr; /* چپ به راست برای انگلیسی */
     text-align: left;
 }
 
-/* این کلاس را برای صفحه فارسی استفاده خواهیم کرد */
-.rtl-page {
+/* این کلاس برای صفحه فارسی استفاده می‌شود */
+body.rtl-page {
     direction: rtl; /* راست به چپ برای فارسی */
     text-align: right;
 }
 
-/* راست چین کردن جدول‌ها در صفحه فارسی */
+/* اعمال راست چین بر روی تمام المان‌های متنی در صفحه فارسی */
+.rtl-page h1, .rtl-page h2, .rtl-page h3, .rtl-page h4, 
+.rtl-page p, .rtl-page ul, .rtl-page ol {
+    text-align: right;
+}
+
+/* حل قطعی مشکل تراز جدول‌ها در صفحه فارسی */
 .rtl-page table, .rtl-page th, .rtl-page td {
     direction: rtl !important;
     text-align: right !important;
@@ -24,6 +43,7 @@ body {
 
 /* استایل‌های پایه مارک داون */
 h1, h2, h3, h4 { margin-top: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
-ul, ol { padding-left: 20px; }
+ul, ol { padding-left: 20px; padding-right: 0; }
+.rtl-page ul, .rtl-page ol { padding-right: 20px; padding-left: 0; } /* بولت‌ها در فارسی به راست منتقل می‌شوند */
 table { width: 100%; border-collapse: collapse; margin: 1em 0; }
 th, td { border: 1px solid #ddd; padding: 8px; }
